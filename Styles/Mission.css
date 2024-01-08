@@ -1,5 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -155,4 +156,127 @@ header {
     padding: 16px 32px;
     border: 0;
     margin-top: 10px;
+}
+
+.gift-section-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-section-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0 10px 0;
+}
+
+.gift-section-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 440px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.gift-image-first {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gift-image-second {
+    display: flex;
+    gap: 24px;
+}
+
+.gift-image-first img {
+    width: 400px;
+    height: 422px;
+}
+
+.gift-image-second img {
+    width: 400px;
+    height: 422px;
+}
+
+.gift-image-first img:hover {
+    box-shadow: 4px 4px 4px blue;
+}
+
+.gift-image-second img:hover {
+    box-shadow: 4px 4px 4px blue;
+}
+
+.subscribe-section {
+    width: 1245px;
+    height: 580px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 100px 0;
+}
+
+.subscribe-section {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscribe-heading {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 180px;
+}
+.subscribe-form{
+    display: flex;
+    margin-top: 50px;
+}
+#email {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    padding:1px 0px 1px 35px;
+    border: 0;
+    width: 40%;
+    margin-left: 250px;
+}
+
+.subscribe-btn {
+    width: 210px;
+    height: 74px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+}
+footer{
+    background: #070211;
+    border-radius: 15px;
+    width: 1245px;
+    height: 580px;
 }
