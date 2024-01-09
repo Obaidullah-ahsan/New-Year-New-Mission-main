@@ -2,6 +2,7 @@ body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
 }
+
 /* Header Section start*/
 header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Images/Banner\ Image.png');
@@ -32,6 +33,7 @@ header {
     margin-top: 0;
     padding: 16px 344px 117px;
 }
+
 /* Header Section end*/
 
 /* main Section start*/
@@ -158,6 +160,53 @@ header {
     margin-top: 10px;
 }
 
+.best-offer {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.text {
+    padding-right: 30px;
+}
+
+.best-offer-img {
+    border-radius: 400px;
+    border: 15px solid #F00;
+    padding: 30px;
+    width: 364.700px;
+    height: 364.700px;
+}
+
+.best-offer-description-left {
+    width: 400px;
+    padding: 10px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.best-offer-right {
+    padding: 15px 0 0 100px;
+}
+
+.best-offer-right-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+.best-offer-right-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.best-offer-right-img {
+    padding-top: 25px;
+}
+
 .gift-section-title {
     color: #F00;
     font-family: Inter;
@@ -205,11 +254,13 @@ header {
 }
 
 .gift-image-first img:hover {
-    box-shadow: 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px red;
+    border-radius: 20px;
 }
 
 .gift-image-second img:hover {
-    box-shadow: 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px red;
+    border-radius: 20px;
 }
 
 .subscribe-section {
@@ -276,6 +327,7 @@ header {
     border: 0;
     padding: 0;
 }
+
 /* main Section end*/
 
 /* Footer Section start*/
@@ -353,11 +405,14 @@ footer hr {
     font-weight: 500;
     display: flex;
 }
-.footer-last{
+
+.footer-last {
     width: 70%;
     padding: 30px 0 120px 140px;
 }
-.footer-unsub{
+
+.footer-unsub {
     padding: 30px 0 120px 0px;
 }
+
 /* Footer Section end*/
